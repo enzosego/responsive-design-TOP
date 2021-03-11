@@ -1,0 +1,78 @@
+@mixin line($width, $height, $color) {
+  background: $color;
+  width: $width;
+  height: $height;
+}
+
+@mixin burger-btn($width: 18px, $height: 3px, $color: black ,$translate: 5px) {
+  @include line($width, $height, $color);
+  position: relative;
+
+  &::before {
+    @include line($width, $height, $color);
+    position: absolute;
+    content: '';
+    transform: translateY($translate);
+  }
+
+  &::after {
+    @include line($width, $height, $color);
+    position: absolute;
+    content: '';
+    transform: translateY(-#{$translate});
+  }
+}
+
+$images-map: (
+  one: url("images/ipad-stand.jpeg"),
+  two: url("images/boost.jpg"),
+  three: url("images/asus-rog.jpeg"),
+  four: url("images/lawsuit.webp"),
+  five: url("images/adobe-cc.jpg"),
+  six: url("images/asus-rog.jpeg"),
+  seven: url("images/exoplanet.jpg"),
+  eight: url("images/instagram-lite.jpg"),
+  nine: url("images/nothing-product.png"),
+  ten: url("images/when-product.png"),
+  eleven: url("images/android.jpg"),
+  twelve: url("images/ecom-express.png"),
+  thirteen: url("images/privacera.jpg"),
+  fourteen: url("images/flutterware.png"),
+  fifteen: url("images/workfusion.png"),
+  sixteen: url("images/gamestop.jpg"),
+  seventeen: url("images/jack-dorsey.jpeg"),
+  eighteen: url("images/ios-14.png"),
+  nineteen: url("images/vertical-tabs.png"),
+  twenty: url("images/nothing-product.png"),
+  twentyone: url("images/sonos-roam.jpg"),
+  twentytwo: url("images/job-ai.jpeg"),
+  twentythree: url("images/electric-bus.jpeg"),
+  twentyfour: url("images/design-crisis.png"),
+  twentyfive: url("images/design-apps.jpg"),
+  twentysix: url("images/2021-open-source.webp"),
+  twentyseven: url("images/google-abuses.png"),
+  twentyeight: url("images/ev-names.webp"),
+  twentynine: url("images/founders.webp"),
+  thirty: url("images/toyota-battery.jpeg"),
+  thirtyone: url("images/google-ebike.webp"),
+  thirtytwo: url("images/armored-brigade.jpg"),
+  thirtythree: url("images/maquette.jpeg"),
+  thirtyfour: url("images/deals-one.jpg"),
+  thirtyfive: url("images/deals-two.jpg"),
+  thirtysix: url("images/deals-three.jpg"),
+  thirtyseven: url("images/deals-four.jpg"),
+  thirtyeight: url("images/surfshark.webp"),
+  thirtynine: url("images/12-min.jpg"),
+  fourty: url("images/deals-seven.jpg"),
+  fourtyone: url("images/tweet-ninja.jpg"),
+);
+
+@mixin appending-images() {
+  @each $number, $image in $images-map {
+    ##{$number} {
+      background-image: $image;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}

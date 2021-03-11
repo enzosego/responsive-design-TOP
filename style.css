@@ -1,0 +1,1033 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: 0;
+  -moz-box-sizing: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#one {
+  background-image: url("images/ipad-stand.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#two {
+  background-image: url("images/boost.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#three {
+  background-image: url("images/asus-rog.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#four {
+  background-image: url("images/lawsuit.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#five {
+  background-image: url("images/adobe-cc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#six {
+  background-image: url("images/asus-rog.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#seven {
+  background-image: url("images/exoplanet.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#eight {
+  background-image: url("images/instagram-lite.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nine {
+  background-image: url("images/nothing-product.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#ten {
+  background-image: url("images/when-product.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#eleven {
+  background-image: url("images/android.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#twelve {
+  background-image: url("images/ecom-express.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#thirteen {
+  background-image: url("images/privacera.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fourteen {
+  background-image: url("images/flutterware.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fifteen {
+  background-image: url("images/workfusion.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sixteen {
+  background-image: url("images/gamestop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#seventeen {
+  background-image: url("images/jack-dorsey.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#eighteen {
+  background-image: url("images/ios-14.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nineteen {
+  background-image: url("images/vertical-tabs.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#twenty {
+  background-image: url("images/nothing-product.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#twentyone {
+  background-image: url("images/sonos-roam.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#twentytwo {
+  background-image: url("images/job-ai.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#twentythree {
+  background-image: url("images/electric-bus.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#twentyfour {
+  background-image: url("images/design-crisis.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#twentyfive {
+  background-image: url("images/design-apps.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#twentysix {
+  background-image: url("images/2021-open-source.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#twentyseven {
+  background-image: url("images/google-abuses.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#twentyeight {
+  background-image: url("images/ev-names.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#twentynine {
+  background-image: url("images/founders.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#thirty {
+  background-image: url("images/toyota-battery.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#thirtyone {
+  background-image: url("images/google-ebike.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#thirtytwo {
+  background-image: url("images/armored-brigade.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#thirtythree {
+  background-image: url("images/maquette.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#thirtyfour {
+  background-image: url("images/deals-one.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#thirtyfive {
+  background-image: url("images/deals-two.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#thirtysix {
+  background-image: url("images/deals-three.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#thirtyseven {
+  background-image: url("images/deals-four.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#thirtyeight {
+  background-image: url("images/surfshark.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#thirtynine {
+  background-image: url("images/12-min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fourty {
+  background-image: url("images/deals-seven.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fourtyone {
+  background-image: url("images/tweet-ninja.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+header nav {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  background: white;
+  width: 100%;
+  height: 48px;
+}
+header .logo {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 105px;
+  background-image: url("images/tnw-logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+header .search-container, header .burger-container {
+  height: 100%;
+  width: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #ebebeb;
+  cursor: pointer;
+}
+header .fa-search {
+  font-size: 1.1rem;
+  color: #c8c8c8;
+}
+header .fa-search:hover {
+  color: #a0a0a0;
+}
+@media (min-width: 768px) {
+  header .burger-container {
+    display: none;
+  }
+}
+header .burger-btn {
+  background: red;
+  width: 20px;
+  height: 2px;
+  position: relative;
+  border-radius: 2px;
+}
+header .burger-btn::before {
+  background: red;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  content: "";
+  transform: translateY(6px);
+}
+header .burger-btn::after {
+  background: red;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  content: "";
+  transform: translateY(-6px);
+}
+header .nav-links {
+  position: absolute;
+  left: 105px;
+  top: 16px;
+  font-family: "Titillium Web", "Poppins", inherit;
+}
+@media (max-width: 767px) {
+  header .nav-links {
+    display: none;
+  }
+}
+header .nav-links ul {
+  display: flex;
+  list-style: none;
+}
+header .nav-links li {
+  margin-left: 20px;
+  font-size: 0.85rem;
+  color: #a0a0a0;
+}
+@media (max-width: 1023px) {
+  header .nav-links li {
+    font-size: 0.8rem;
+    margin-left: 18px;
+  }
+}
+header .nav-links li:hover {
+  color: black;
+}
+header .nav-links a {
+  text-decoration: none;
+}
+header section {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: yellow;
+  font-weight: 400;
+  font-size: 0.57rem;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  header section {
+    height: 30px;
+    font-size: 0.65rem;
+  }
+  header section h3 {
+    margin-right: 600px;
+  }
+}
+@media (max-width: 1023px) {
+  header section h3 {
+    margin-right: 0;
+  }
+}
+
+main {
+  margin-top: 108px;
+}
+@media (min-width: 768px) {
+  main {
+    margin-top: 81px;
+  }
+}
+main .main-news {
+  width: 95%;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  main .main-news {
+    width: 98.5%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 8px;
+  }
+  main .main-news .nested-grid {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 8px;
+  }
+}
+main .main-news .tile {
+  background: grey;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  main .main-news .tile {
+    width: 100%;
+    height: 225px;
+    margin-bottom: 7px;
+  }
+}
+main .opacity-handler {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top, black, black 11%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  color: white;
+  font-family: "Poppins", inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+main .opacity-handler h1 {
+  font-family: "Poppins", inherit;
+}
+main .red-gradient {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+@media (min-width: 1024px) {
+  main .red-gradient {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.6), rgba(0, 0, 0, 0) 80%);
+  }
+}
+@media (max-width: 1023px) {
+  main .red-gradient img {
+    display: none;
+  }
+  main .red-gradient .date {
+    display: none;
+  }
+}
+main .red-gradient .date {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+main .red-gradient img {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  width: 50%;
+}
+main .text-container {
+  margin-bottom: 5%;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .text-container .category {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .text-container h1 {
+  margin-bottom: 10px;
+  font-size: 1.55rem;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 1;
+}
+@media (max-width: 767px) {
+  main .text-container h1 {
+    font-size: 1.25rem;
+  }
+}
+main .text-container span {
+  color: #646464;
+  font-size: 0.75rem;
+}
+main .text-container i {
+  margin-left: 1%;
+  margin-right: 2px;
+  font-size: 1.2rem;
+}
+main .text-container a {
+  color: inherit;
+}
+main .text-container a:hover {
+  color: white;
+}
+@media (min-width: 768px) {
+  main .--big .text-container {
+    margin-bottom: 2%;
+  }
+  main .--big h1 {
+    font-size: 3.3rem;
+  }
+}
+main a {
+  color: red;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+main a:hover {
+  color: black;
+}
+main h1 {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+main h1 i {
+  margin-left: 5px;
+  font-size: 1.1rem;
+}
+main .articles {
+  margin-top: 15px;
+}
+@media (min-width: 768px) {
+  main .articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+  }
+}
+@media (min-width: 1024px) {
+  main .articles {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+main .latest {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  main .latest {
+    width: 97%;
+  }
+}
+@media (min-width: 1200px) {
+  main .latest {
+    width: 1155px;
+  }
+}
+main .news {
+  font-family: "Poppins";
+}
+main .news article {
+  margin-top: 15px;
+  height: 80px;
+  width: 100%;
+  display: flex;
+}
+@media (min-width: 768px) {
+  main .news article {
+    height: 240px;
+    margin: auto;
+  }
+}
+main .news article p {
+  margin-top: 10px;
+  font-size: 0.75rem;
+  color: #969696;
+}
+@media (max-width: 767px) {
+  main .news article p {
+    margin-top: 4px;
+    font-size: 0.7rem;
+  }
+}
+main .news article p a {
+  color: inherit;
+}
+main .news article p a:hover {
+  color: dimgray;
+  text-decoration: none;
+}
+main .news article a {
+  color: black;
+}
+main .news article a:hover {
+  color: red;
+  text-decoration: underline;
+}
+main .news article h1 {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  main .news article h1 {
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+}
+main .news .article-image {
+  height: 100%;
+  min-width: 80px;
+  background-position: center;
+  margin-right: 3%;
+}
+main .news .news-text {
+  height: 100%;
+}
+@media (max-width: 767px) {
+  main .news .news-text {
+    margin-left: 2%;
+  }
+}
+@media (min-width: 768px) {
+  main .news {
+    display: grid;
+  }
+  main .news article {
+    display: block;
+  }
+  main .news .article-image {
+    width: 100%;
+    height: 55%;
+  }
+  main .news .news-text {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  main .fundings {
+    position: relative;
+  }
+  main .fundings .other-links {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+  }
+}
+main .fundings .other-links {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  main .fundings .other-links {
+    display: inline;
+  }
+  main .fundings .other-links .first {
+    border: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+main .fundings .other-links a {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #FF3737;
+}
+@media (min-width: 768px) {
+  main .fundings .other-links a {
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 1px solid #FF3737;
+    font-size: 0.95rem;
+  }
+}
+main .fundings .articles {
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+  main .fundings .articles {
+    display: flex;
+  }
+}
+main .fundings article {
+  margin-top: 20px;
+  width: 100%;
+  height: 270px;
+  background: rgba(255, 0, 0, 0.022);
+}
+main .fundings .gradient {
+  height: 35%;
+  padding-top: 10px;
+  background-image: linear-gradient(red, red 40%, rgba(255, 0, 0, 0.09) 40%);
+  display: flex;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+main .fundings .gradient--text {
+  margin-left: 15px;
+}
+main .fundings .gradient h1 {
+  font-size: 1.05rem;
+  color: white;
+}
+main .fundings .gradient h2 {
+  margin-top: 10px;
+  font-size: 1.05rem;
+}
+main .fundings .gradient p {
+  font-size: 0.7rem;
+  font-family: "Titillium Web";
+  color: #646464;
+}
+main .fundings footer {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  background: transparent;
+  font-size: 0.87rem;
+  color: #646464;
+  line-height: 1.2rem;
+}
+main .fundings footer h5 {
+  font-weight: 500;
+  cursor: pointer;
+}
+main .fundings footer p {
+  color: #a5a5a5;
+}
+main .fundings .categories {
+  height: 65px;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.2);
+}
+main .fundings .categories p {
+  margin-top: 15px;
+  margin-left: 5%;
+  font-size: 0.8rem;
+  color: #5a5a5a;
+  cursor: pointer;
+}
+main .fundings .categories p:hover {
+  color: #323232;
+}
+main .fundings .categories i {
+  width: 25px;
+  color: #1e1e1e;
+  font-size: 1rem;
+}
+main .fundings .funding-image {
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+}
+@media (max-width: 1023px) {
+  main .fundings .optional {
+    display: none;
+  }
+}
+main .other--container {
+  width: 97%;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  main .other--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  main .other--container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  main .other--container {
+    width: 1200px;
+  }
+}
+main .other-sections {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  main .other-sections {
+    width: 92%;
+  }
+}
+main .other-sections--image {
+  margin-top: 10px;
+  width: 100%;
+  height: 300px;
+  background-position: center;
+}
+main .other-sections--image--gradient {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top, black, black 5%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+main .other-sections--image h1, main .other-sections--image h3, main .other-sections--image p {
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .other-sections--image h3 {
+  margin-bottom: 3px;
+  font-family: "Titillium Web", "Poppins", inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #e6e6e6;
+}
+main .other-sections--image h1 {
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+}
+main .other-sections--image p {
+  margin-bottom: 10px;
+  font-size: 0.72rem;
+  color: #afafaf;
+}
+main .other-sections--image a {
+  color: inherit;
+}
+main .other-sections--image a:hover {
+  color: gainsboro;
+}
+main .other-sections--latest {
+  margin-top: 1px;
+  width: 100%;
+  height: 90px;
+  background: rgba(255, 68, 34, 0.1);
+  display: flex;
+  justify-content: flex-end;
+}
+main .other-sections--latest--image {
+  height: 100%;
+  min-width: 25%;
+  background-position: center;
+  cursor: pointer;
+}
+main .other-sections--latest--text {
+  margin-left: 12px;
+  margin-right: 13px;
+  color: red;
+}
+main .other-sections--latest h3 {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+main .other-sections--latest h4 {
+  margin-top: 5px;
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+main .other-sections--latest h4:hover {
+  text-decoration: underline;
+}
+main .other-sections--list {
+  margin-top: 10px;
+  width: 100%;
+}
+main .other-sections ul {
+  list-style: none;
+}
+main .other-sections li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ebebeb;
+  font-size: 0.8rem;
+}
+main .other-sections li::before {
+  content: "•";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1rem;
+}
+main .other-sections li a {
+  color: #646464;
+  font-size: inherit;
+}
+main .other-sections li a:hover {
+  color: #323232;
+}
+main .deals article {
+  margin-top: 15px;
+  min-height: 75px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  main .deals article {
+    height: 280px;
+  }
+}
+@media (max-width: 767px) {
+  main .deals article {
+    display: flex;
+  }
+}
+main .deals--image {
+  width: 100%;
+  height: 72%;
+  background-position: center;
+}
+@media (max-width: 767px) {
+  main .deals--image {
+    margin-right: 3%;
+    min-width: 82px;
+    width: 82px;
+    height: 75px;
+  }
+}
+main .deals--text {
+  margin-top: 5px;
+}
+main .deals--text h1 {
+  color: black;
+  font-size: 0.95rem;
+}
+@media (max-width: 767px) {
+  main .deals--text h1 {
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+}
+main .deals--text h1 a {
+  color: inherit;
+}
+main .deals--text h1 a:hover {
+  color: red;
+  text-decoration: underline;
+}
+main .deals--text h3 {
+  margin-top: 3px;
+  color: #464646;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+main .deals--text h3 strong {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #afafaf;
+  text-decoration: line-through;
+}
+
+footer {
+  margin-top: 60px;
+  background: black;
+}
+footer .media {
+  height: 160px;
+  background: #161616;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+footer .media--icons {
+  display: flex;
+}
+footer .media .circle {
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3c3c3c;
+  border-radius: 50%;
+  font-size: 1.1rem;
+}
+@media (max-width: 400px) {
+  footer .media .circle {
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 30px;
+    width: 30px;
+    font-size: 1rem;
+  }
+}
+footer .media--links {
+  margin-top: 25px;
+  display: flex;
+  font-size: 0.85rem;
+}
+@media (max-width: 399px) {
+  footer .media--links {
+    font-size: 0.7rem;
+  }
+}
+footer .media a {
+  margin: auto 5px;
+  text-decoration: none;
+  color: #aaaaaa;
+}
+footer .media a:hover {
+  color: gainsboro;
+}
+footer .credits {
+  margin-top: 0;
+  height: 120px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a0a0a0;
+  font-size: 0.88rem;
+}
+footer p {
+  position: relative;
+}
+footer .tnw-logo {
+  width: 37px;
+}
+footer .stackpath-logo {
+  position: absolute;
+  bottom: -2px;
+  width: 75px;
+  margin-top: 3px;
+}
+
+/*# sourceMappingURL=style.css.map */
